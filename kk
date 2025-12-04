@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+
+<html>
+ 
+  <head>
+  <img src ="WebBanner2023.png" alt="Banner" width="1200" height="300">
+    <h1><b>ENG0018 Computer Laboratory 2025/26</b><h1>
+    <h2>Student URN: 6953641</h2>
+  <hr>
+  <h2 style=”font-family:calibri:”><b>Conference paper: RP-1 vs Methane </b></h2>
+  <hr>
+   
+
+    <!style for tables>
+        <style>
+          table {
+            font-family: "Times New Roman", Times, serif;
+            border-collapse: collapse;
+            width: 30%;
+          }
+
+          td, th {
+            border: 1px solid #25384a;
+            text-align: left;
+            padding: 8px;
+          }
+
+          tr:nth-child(even) {
+            background-colour: #25384a;
+          }
+
+      <style>
+        p.ex1 {
+          margin-left: 250px;
+        }
+      </style>
+  </head>
+
+  <body>
+        <!table of contents>
+      <table>
+
+        <tr>
+         <th><h3>Table of contents</h3></th>
+        </tr>
+        <tr>
+         <td><a href="#Abstract">Abstract</td>
+        </tr>
+        <tr>
+          <td><a href="#Introduction">Introduction</td>
+        </tr>
+        <tr>
+          <td><a href="#Analysis and discussion">Analysis and discussion</td>
+        </tr>
+        <tr>
+          <td><a href="#Conclusion">Conclusion</td>
+        </tr>
+        <tr>
+          <td><a href="#References">References</td>
+        </tr>
+      </table>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css
+<style>
+.mySlides {display:none;}
+</style>
+
+<p class="ex1">
+<h3 id="Abstract">Abstract</h3>
+<div id="Abstract_InText">
+<pre>
+This paper presents compares liquid methane (LOX/CH4) and kerosene (LOX/RP-1) as rocket fuels for
+reusable booster engines. The study evaluates the performance, e.g specific impulse, density,
+combustion temp and environmental factors. Based on published studies, and compares the feasibility
+of using these fuels in reusable rockets by using real life examples of rockets that use these fuel
+sources where methane is a more modern alternative.
+</pre>
+</div>
+    </p>
+
+<p class="ex1">
+<h3 id="Introduction">Introduction</h3>
+<div id="Introduction_InText">
+<pre>
+The fuel that a rocket engine uses determines the efficiency, the cost and reusability of rockets. Firstly,
+Kerosene particularly RP-1, has been the main fuel source in the past which has powered the most popular
+launch vehicles such as the Saturn V and Soyuz rockets.Whereas Methane is now becoming a highly used fuel
+source in the space industry for the next generation of rockets especially reusable rockets for example
+Space X’s starship and Blue Origin’s New Glenn, Where reusability is very important as a factor for modern
+rockets due to the possibilities of flight to other planets such as mars and the possibility for synthesis
+of these fuels on extraterrestrial planets.
+</pre>
+</div>
+    </p>
+
+<p class="ex1">
+<h3 id="Analysis and discussion">Analysis and discussion</h3>
+<div id="Analysis_InText">
+<pre>
+  Table 1:
+  <table>
+    <tr>
+      <th>Fuel</th>
+      <th>Methane</th>
+       <th>RP-1</th>
+    </tr>
+    <tr>
+      <td>Density</td>
+      <td>~422.6 (kg/m3)</td>
+      <td>~800-820 (kg/m3)</td>
+    </tr>
+    <tr>
+      <td>Specific impulse (sea level)</td>
+      <td>~310s</td>
+      <td>~300s</td>
+    </tr>
+    <tr>
+      <td>Specific impulse (Vacuum)</td>
+      <td>~370s</td>
+      <td>~360s</td>
+    </tr>
+    <tr>
+      <td>Storage temperature</td>
+      <td>-170 °C</td>
+      <td>Room temp</td>
+    </tr>
+    <tr>
+      <td>Residue</td>
+      <td>water</td>
+      <td>Soot, coking</td>
+    </tr>
+    <tr>
+      <td>Oxidiser/Fuel</td>
+      <td>3.0</td>
+      <td>2.5</td>
+    </tr>
+  </table>
+  These performances are theoretical. [6] Dunn, B., n.d. ‘Rocket Fuel Table’.
+
+
+Efficiency:
+The Theoretical performance data measured in Isp (where Specific impulse is the ratio of thrust to
+propellant weight flow, calculated as Isp = F / (m.g0), and is a measure of engine efficiency.) shows that
+Methane is slightly more efficient as it has an isp that is 10s above that of kerosene, which means that
+it produces more thrust while using less fuel in a ratio, in which a higher thrust is very important as
+it allows the rocket to push through the thick atmosphere quicker. Therefore, methane beats RP-1 by pure
+efficiency however there are other factors that affect the efficiency of the whole launch
+
+The density of Methane is approximately half that of kerosene meaning that when kerosene is used fuel
+tanks can be smaller therefore the mass of the rocket can be reduced this will improve the efficiency
+of the launch system as less mass means the thrust provided can propel the rocket further. Methane
+also has a higher oxidiser to fuel ratio, meaning more oxidiser is needed to combust with the methane
+for the best combustion meaning that the rocket will be heavier at liftoff meaning a less efficient
+launch compared to RP-1.
+
+RP-1 also requires more complicated fuel tanks, as RP-1 fuel needs to be externally pressurised by inert
+gases such as helium, therefore increasing the weight and the complexity of the design to keep the tank
+pressurized by having additional valves, tanks and components, Whereas methane is self-pressurised due
+to a portion of the fuel being allowed to vaporize hence pressurizing the fuel tank, this eliminates
+any extra components. On the other hand, Methane is a cryogenic fuel so must be kept at very cold temperatures
+of less than −161°C which means that the methane fuel tanks require extra mass for insulation systems to
+minimise heat gain from the environment. Where the RP-1 fuel is stored at room temp so requires no extra
+components, making the rockets lighter
+
+Enviromental impact:
+Methane also provides cleaner combustion due to its by product being H20 and carbon dioxide where water is the
+main byproduct, while kerosene being a hydrocarbon produces byproducts such as carbon dioxide and soot meaning
+that the byproducts can build up inside the rocket engine, this can reduce performance and can block clog
+critical engine components therefore for reusable rockets kerosene is less desirable, the soot must also be
+cleaned of regularly if the engine were to be reused, which costs valuable time and money to those responsible
+for the engines, Therefore reduces reusability. The carbon dioxide emissions can be dangerous if there is too
+much in the atmosphere as it is a greenhouse gas therefore causes climate change. RP-1 also releases nitrogen
+oxides which also contribute to air pollution.
+
+Manufacturing:
+RP-1 fuel is a refined form of kerosene so is made from refining crude oils which is expensive and takes a long
+time, whereas methane is a simple molecule which can be easily produced with the Sabatier Reaction
+(CO2 + 4H2 → CH4 + 2H2O) (C. Vogt et al., 2019. The Renaissance of the Sabatier Reaction and Its Applications
+on Earth and in Space) which is a process that reacts hydrogen and carbon dioxide where these are very common
+molecules. This process can also be executed on other planets to produce methane fuel for example mars where
+the carbon dioxide rich atmosphere can be used to do the process, whereas the process of the refinement of
+crude oils for RP-1 requires heavy machinery that would not be worth to bring on interplanetary missions,
+Therefore methane has a clear advantage over RP-1.
+</pre>
+</div>
+    </p>
+<p class="ex1">
+<h3 id="Conclusion">Conclusion</h3>  
+<div id="Conclusion_InText">
+<pre>
+ 
+In Conclusion, The choice between RP-1 fuel and methane fuel plays a vital role in determining all the factors
+of modern launch vehicles, where RP-1(kerosene) has the longest history of powering rockets its limitations
+make reusability not ideal with RP-1, where methane on the other hand offers more benefits when it comes to
+reusability making it the most popular fuel for reusable rockets nowadays, where the industry is shifting
+towards this, therefore methane is likely to become dominant in the future of rocket engineering.
+ 
+</pre>
+</div>
+    </p>
+     
+<p class="ex1">
+<h3 id="References">References</h3>
+
+<pre>
+[1] Burkhardt, H., Sippel, M., Herbertz, A. & Klevanski, J., 2002. Comparative Study of Kerosene and Methane Propellant Engines for Reusable Liquid Booster Stages. 4th International Conference on Launcher Technology “Space Launcher Liquid Propulsion”, Liège, Belgium, 3 6 December 2002. Cologne: DLR SART.
+[2] Sippel, M. & Wilken, J., 2024. ‘Selection of propulsion characteristics for systematic assessment of future European RLV options.’ CEAS Space Journal, 17, pp. 89–111.
+[3] Bussler, L., Dietlein, I. & Sippel, M., 2024. ‘Comparative analyses of European horizontal landing reusable first‐stage concepts.’ CEAS Space Journal.
+<a href="https://headedforspace.com/using-liquid-methane-as-rocket-fuel/">[4] Wessels, W., 2024. Using Liquid Methane as Rocket Fuel</a>
+<a href="https://headedforspace.com/using-rp1-as-rocket-fuel/">[5] Wessels, W., 2024. Using RP-1 as Rocket Fuel</a>
+<a href="https://yarchive.net/space/rocket/fuels/fuel_table.html">[6] Dunn, B., n.d. Rocket Fuel Table</a>
+[7] NASA, 1990. High Energy Density Liquid Rocket Fuel Performance. NASA Technical Memorandum 4137. Washington, D.C.: National Aeronautics and Space Administration
+[8] C. Vogt et al., 2019. The Renaissance of the Sabatier Reaction and Its Applications on Earth and in Space," Nat. Catal. 2, 188.
+</pre>
+
+<div id="last-updated">Loading last update time...</div>
+<button onclick="verifyLastUpdatedTime()" style="display: block; margin: 10px auto; padding: 8px 16px;">
+    Verify Last Modified Time
+</button>
+<script>
+    async function getLastUpdatedTime() {
+        const username = 'nm01795';
+        const repo = 'FY6953641';
+       
+        const url = `https://api.github.com/repos/${username}/${repo}/commits`;
+        try {
+            const response = await fetch(url, {
+                method: 'GET',
+                headers: {
+                    'Accept': 'application/vnd.github.v3+json',
+                }
+            });
+            if (!response.ok) {
+                throw new Error(`Error fetching data: ${response.status} - ${response.statusText}`);
+            }
+            const commits = await response.json();
+            if (commits && commits.length > 0) {
+                const lastCommitDate = new Date(commits[0].commit.committer.date);
+               
+                // Displaying the time on load
+                document.getElementById('last-updated').innerText = `Last Modified Time: ${lastCommitDate.toLocaleString()}`;
+            } else {
+                document.getElementById('last-updated').innerText = 'No commits found in the repository.';
+            }
+        } catch (error) {
+            console.error('Error fetching the last updated time:', error);
+            document.getElementById('last-updated').innerText = 'Error fetching update time. Please check the repository details.';
+        }
+    }
+    // Function to verify the last update time by re-fetching it from the API
+    async function verifyLastUpdatedTime() {
+        document.getElementById('last-updated').innerText = 'Verifying...';
+        await getLastUpdatedTime();
+        alert("Last modified time has been successfully verified from GitHub API.");
+    }
+   
+</script>
+
+<!-- Placeholder for total word count -->
+<p id="totalWordCount"></p>
+<hr>
+<script>
+  // Function to calculate and display word count for a specified section
+  function displayWordCount(sectionId, outputId) {
+    // Get the text content from the specified section
+    const text = document.getElementById(sectionId).textContent;
+    // Split text into words based on spaces and filter out any empty strings
+    const wordArray = text.trim().split(/\s+/);
+    // Count the words
+    const wordCount = wordArray.length;
+    // Return the word count for summing purposes
+    return wordCount;
+  }
+  // Function to calculate and display total word count from selected sections
+  function displayTotalWordCount() {
+    // Calculate word count for each section and accumulate the total
+    const IntroductionCount = displayWordCount("Introduction_InText");
+    const AnalysisCount = displayWordCount("Analysis_InText");
+    const ConclusionCount = displayWordCount("Conclusion_InText");
+    const AbstractCount = displayWordCount("Abstract_InText");
+    // Calculate the sum of all selected sections
+    const totalWordCount = IntroductionCount + AnalysisCount + ConclusionCount + AbstractCount;
+    // Display the total word count
+    document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
+  }
+  // Run the function for specific sections and display total count when the page loads
+  window.onload = () => {
+    getLastUpdatedTime();  
+    displayTotalWordCount();
+  };
+</script>
+
+
+</body>
+</html>
