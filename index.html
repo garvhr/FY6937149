@@ -264,29 +264,4 @@
   </body>
 </html>
 
-   ![Word Count](https://img.shields.io/badge/dynamic/json?color=blue&label=Word%20Count&query=words&url=https://raw.githubusercontent.com/<garvh.r>/<FY6937149>/main/wordcount.json)
-
-name: Word Count
-
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-
-jobs:
-  count_words:
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v3
-
-    - name: Count words
-      run: |
-        wc -w $(git ls-files '*.md') | head -n -1 | awk '{s+=$1} END {print s}' > words.txt
-        echo "{\"words\": $(cat words.txt)}" > wordcount.json
-
-    - name: Commit wordcount.json
-      uses: stefanzweifel/git-auto-commit-action@v5
-      with:
-        commit_message: Update word count
-        file_pattern: wordcount.json
+   
